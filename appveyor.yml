@@ -32,6 +32,9 @@ install:
   - npm update
   - npm run install-debug
 
+artifacts:
+  path: 'build/*'
+
 # Post-install test scripts.
 test_script:
   # run tests
